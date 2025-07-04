@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+// that was goog at fork and pull request
 namespace RealisticDependencies {
     public interface IDatabase {
         Task Connect();
@@ -11,7 +11,7 @@ namespace RealisticDependencies {
         Task WriteData(string key, string data);
         Task<List<string>> DumpData();
     }
-
+// me also i lov e your youtube channal
     public class Database : IDatabase {
         private readonly string _connectionString;
         private readonly IApplicationLogger _logger;
